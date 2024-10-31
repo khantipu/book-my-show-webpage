@@ -1,0 +1,133 @@
+*{
+    margin:0px;
+
+    
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    align-items:center;
+    height: 60px;
+    background-color: rgba(153, 148, 148, 0.829);
+}
+.search>input{
+    height: 30px;
+    width: 600px;
+    border-radius:5px;
+    padding: 0px 30px;
+    border: 5px solid grey;
+}
+.search>img{
+    position:relative;
+    top: 5px;
+    left: 30px;
+    height: 20px;
+}
+.account select{
+    border:none ;
+    background-color: inherit;
+    width: 100px;
+}
+.account>button{
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius:5px;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+nav{
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    padding: 0px 40px;
+    background-color: beige;
+    align-items:center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    margin: 0px 5px;
+}
+marquee img{
+    height: 200px;
+    border-radius: 10px;
+    margin: 8px;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    font-family: sans-serif;
+}
+.section1 a{
+    text-decoration: none;
+    color: red;
+}
+article{
+    display: flex;
+    padding:0px 10px;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    
+}
+article img{
+    height: 320px;
+    width: 180px;
+    border-radius: 10px;
+    position: relative;
+    top:60px;
+    transition: .75s;
+
+}
+article img:hover{
+    top: 0px;
+}
+article span{
+    color: gray;
+}
+.card1{
+    width: 180px;
+}
+.poster{
+    align-items: center;
+    padding: 0px 200px;
+    height: 10px;
+}
+.section2{
+    font-family: sans-serif;
+    color: black;
+    font-size: 24px;
+    padding: 0px 30px;
+}
+.photo{
+    display: flex;
+    padding: 20px 30px;
+    justify-content: space-around;
+    
+
+}
+.photo img{
+    height: 200px;
+    width: 200px;
+    align-items: center;
+}
+.holder{
+   /* padding-left: 40px; */
+    background-color: rgb(43, 49, 72);
+    color: white;
+    font-family: sans-serif;
+    font-size:15px;
+    
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(43, 49, 72) ;
+    color: white;
+    font-size: 20px;
+}
+
+
